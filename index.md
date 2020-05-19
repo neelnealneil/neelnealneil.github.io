@@ -6,6 +6,6 @@
 </head>
 <body>
 <h1>Hello World</h1>
-<p>I'm (hopefully) hosted with GitHub Pages.</p>
+<p>Hmmm</p>
 </body>
 </html>
