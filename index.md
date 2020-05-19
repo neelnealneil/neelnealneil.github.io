@@ -1,41 +1,33 @@
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
-		Neel Singh
+		Homepage
 	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<nav>
-        <div class="nav-title">
-            <span class="Icon Icon--logo Icon--large"></span>
-			<!-- Link in web -->
-            <a class="home-link" href="/">Twitter Open Source</a>
-            <!-- Text in mobile -->
-            <p class="home-text">Twitter Open Source</p>
-            <span id="caret" class="Icon Icon--caretDown"></span>
-        </div>
-        <ul class="nav-menu">
-            <!-- This link only exists in mobile -->
-            <li id="extra-mobile-link" class="nav-list-item">
-                <a class="nav-link" href="/">Twitter Open Source</a>
-            </li>
-            <li class="nav-list-item">
-                <a class="nav-link" href="/projects">Projects</a>
-            </li>
-            <li class="nav-list-item">
-                <a class="nav-link" href="/memberships">#Squad</a>
-            </li>
-            <li class="nav-list-item">
-                <a class="nav-link" href="/year-in-review">Year in Review</a>
-            </li>
-            <li class="nav-list-item">
-                <a class="nav-link" href="https://blog.twitter.com/engineering/en_us/topics/open-source.html" target="_blank">Blog</a>
-            </li>
-            <li class="nav-list-item list-end">
-                <a class="nav-link" href="https://github.com/twitter" target="_blank">GitHub</a>
-            </li>
-        </ul>
+        <ul class="nav">
+  			<li class="nav-item">
+    			<a class="nav-link" href="#">Projects</a>
+  			</li>
+  			<li class="nav-item">
+   				 <a class="nav-link" href="#">Contact</a>
+  			</li>
+ 			<li class="nav-item">
+    			<a class="nav-link" href="#">Experimental</a>
+  			</li>
+  			<li class="nav-item">
+    			<a class="nav-link disabled" href="#">Disabled</a>
+ 			</li>
+		</ul>
     </nav>
+
 <h1>Hello World</h1>
 <p>Hmmm</p>
 </body>
