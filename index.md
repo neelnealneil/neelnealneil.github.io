@@ -23,7 +23,7 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end flex-column">  
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#section1"></a>
+      <a class="nav-link" href="#section1">1</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#section1">Section 1</a>
