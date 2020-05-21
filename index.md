@@ -21,7 +21,7 @@
       <a class="nav-link" href="#section2">Section 2</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#section3">Section 3</a>
+      <a class="nav-link" href="\experimental">Experimental</a>
     </li>
     <!-- <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -45,8 +45,8 @@
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
-<div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-  <h1>Section 3</h1>
+<div id="experimental" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+  <h1>My little experiments</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
