@@ -20,10 +20,10 @@
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end flex-column">  
+<nav class="navbar bg-dark navbar-dark justify-content-end flex-column">  
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#section1">1</a>
+      <a class="nav-link" href="#section1">2</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#section1">Section 1</a>
