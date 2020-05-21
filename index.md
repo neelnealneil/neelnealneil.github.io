@@ -8,11 +8,19 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    body {
+    position: relative;
+  }
+   nav.ul {
+    top: 20px;
+    position: fixed;
+  }
+  </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
-<
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end flex-column">  
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="#section1"></a>
