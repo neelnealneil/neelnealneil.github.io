@@ -21,8 +21,8 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="20">
 <nav class="navbar bg-transparent navbar-dark flex-column">  
   <ul class="navbar-nav">
-    <li class="nav-item justify-content-end">
-      <a class="nav-link" href="#section1">6</a>
+    <li class="nav-item float-right">
+      <a class="nav-link" href="#section1">7</a>
     </li>
     <li class="nav-item justify-content-end">
       <a class="nav-link" href="#section1">Section 1</a>
