@@ -20,7 +20,7 @@
    				 <a class="nav-link" href="#">Contact</a>
   			</li>
  			<li class="nav-item">
-    			<a class="nav-link" href="\experimental">Experimental</a>
+    			<a class="nav-link active" href="\experimental">Experimental</a>
   			</li>
   			<li class="nav-item">
     			<a class="nav-link disabled" href="#">Disabled</a>
