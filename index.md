@@ -14,24 +14,23 @@
     position: relative;
   }
    nav.navbar {
-    top: 20px;
     position: fixed;
   }
   </style>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="0">
+<body data-spy="scroll" data-target=".navbar" data-offset="20">
 <nav class="navbar bg-transparent navbar-dark flex-column">  
   <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#section1">5</a>
+    <li class="nav-item justified-content-end">
+      <a class="nav-link" href="#section1">6</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item justified-content-end">
       <a class="nav-link" href="#section1">Section 1</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item justified-content-end">
       <a class="nav-link" href="#section2">Section 2</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item justified-content-end">
       <a class="nav-link" href="#experimental">Experimental</a>
     </li>
     <!-- <li class="nav-item dropdown">
