@@ -28,7 +28,7 @@
 		</ul>
     </nav>
 
-<h1>Hello World</h1>
-<p>Hmmm</p>
+<h1>Little Experiments</h1>
+<p>Nothing here</p>
 </body>
 </html>
