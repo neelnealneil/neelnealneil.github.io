@@ -11,9 +11,12 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
-
+<
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
   <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1"></a>
+    </li>
     <li class="nav-item">
       <a class="nav-link" href="#section1">Section 1</a>
     </li>
@@ -30,8 +33,8 @@
       <div class="dropdown-menu">
         <a class="dropdown-item" href="#section41">Link 1</a>
         <a class="dropdown-item" href="#section42">Link 2</a>
-      </div> -->
-    </li>
+      </div> 
+    </li>-->
   </ul>
 </nav>
 
@@ -58,8 +61,8 @@
 <div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
   <h1>Section 4 Submenu 2</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p> -->
-</div>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p> 
+</div>-->
 
 </body>
 </html>
