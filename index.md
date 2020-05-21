@@ -24,7 +24,7 @@
       <a class="nav-link" href="#section2">Section 2</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="\experimental">Experimental</a>
+      <a class="nav-link" href="#experimental">Experimental</a>
     </li>
     <!-- <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
