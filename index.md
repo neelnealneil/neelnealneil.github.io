@@ -13,7 +13,7 @@
     body {
     position: relative;
   }
-   nav.ul {
+   nav.navbar {
     top: 20px;
     position: fixed;
   }
@@ -23,7 +23,7 @@
 <nav class="navbar bg-dark navbar-dark justify-content-end flex-column">  
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#section1">2</a>
+      <a class="nav-link" href="#section1">3</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#section1">Section 1</a>
