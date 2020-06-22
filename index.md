@@ -13,7 +13,7 @@
     body {
       position: relative;
     }
-    div.nav {
+    #rightsidenav {
       float: right;
     }
   </style>
@@ -21,7 +21,7 @@
 
 <body>
 
-<div id="rightsidenav" class="nav bg-transparent flex-column" role="navigation">  
+<div id="rightsidenav" class="bg-transparent flex-column" role="navigation">  
   <ul class="nav nav-pills justify-content-end">
     <li class="nav-item">
       <a class="nav-link" href="#section1">Section 1</a>
