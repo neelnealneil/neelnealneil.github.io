@@ -54,11 +54,11 @@
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   </div>
-</div>
-<div id="section4" class="container-fluid bg-secondary">
-  <h1>My little experiments</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <div id="section4" class="container-fluid bg-secondary">
+    <h1>My little experiments</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
 </div>
 <!-- <div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
   <h1>Section 4 Submenu 1</h1>
