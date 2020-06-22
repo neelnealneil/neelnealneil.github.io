@@ -1,14 +1,13 @@
 <html>
+
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>
 		Homepage
 	</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
   <style type="text/css">
     body {
     position: relative;
@@ -18,44 +17,44 @@
   }
   </style>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="20">
-<nav class="navbar bg-transparent navbar-dark flex-column">  
-  <ul class="navbar-nav">
-    <li class="nav-item float-right">
-      <a class="nav-link" href="#section1">7</a>
-    </li>
-    <li class="nav-item justify-content-end">
+
+<body>
+
+<nav id="rightsidenav" class="navbar bg-transparent flex-column">  
+  <ul class="nav nav-pills">
+    <li class="nav-item">
       <a class="nav-link" href="#section1">Section 1</a>
     </li>
-    <li class="nav-item justify-content-end">
+    <li class="nav-item">
       <a class="nav-link" href="#section2">Section 2</a>
     </li>
-    <li class="nav-item justify-content-end">
-      <a class="nav-link" href="#experimental">Experimental</a>
+    <li class="nav-item">
+      <a class="nav-link" href="#section3">Section 3</a>
     </li>
-    <!-- <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Section 4
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#section41">Link 1</a>
-        <a class="dropdown-item" href="#section42">Link 2</a>
-      </div> 
-    </li>-->
+    <li class="nav-item">
+      <a class="nav-link" href="#section4">Section4</a>
+    </li>
   </ul>
 </nav>
 
-<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
-  <h1>Section 1</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+<div data-spy="scroll" data-target="rightsidenav" data-offset="0">
+  <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+    <h1>Section 1</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+    <h1>Section 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+  <div id="section3" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+    <h1>Section 3</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
 </div>
-<div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
-  <h1>Section 2</h1>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-</div>
-<div id="experimental" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+<div id="section4" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
   <h1>My little experiments</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
@@ -70,6 +69,22 @@
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p> 
 </div>-->
+
+
+<!-- <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Section 4
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section41">Link 1</a>
+        <a class="dropdown-item" href="#section42">Link 2</a>
+      </div> 
+    </li>-->
+
+<!-- Adding JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
 </html>
