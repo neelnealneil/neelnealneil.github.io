@@ -22,7 +22,7 @@
 <body>
 
 <nav id="rightsidenav" class="navbar bg-transparent flex-column" role="navigation">  
-  <nav class="nav nav-pills">
+  <nav class="nav nav-pills flex-column">
       <a class="nav-link" href="#section1">Section 1</a>
       <a class="nav-link" href="#section2">Section 2</a>
       <a class="nav-link" href="#section3">Section 3</a>
