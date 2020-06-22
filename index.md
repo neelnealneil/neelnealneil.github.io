@@ -39,23 +39,23 @@
 </nav>
 
 <div data-spy="scroll" data-target="rightsidenav" data-offset="0">
-  <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <div id="section1" class="container-fluid bg-success">
     <h1>Section 1</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   </div>
-  <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+  <div id="section2" class="container-fluid bg-warning">
     <h1>Section 2</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   </div>
-  <div id="section3" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <div id="section3" class="container-fluid bg-success">
     <h1>Section 3</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   </div>
 </div>
-<div id="section4" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+<div id="section4" class="container-fluid bg-secondary">
   <h1>My little experiments</h1>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
