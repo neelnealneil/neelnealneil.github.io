@@ -13,7 +13,7 @@
     #mainpage {
       position: relative;
     }
-    #rightsidenav {
+    nav.navbar {
       float: right;
     }
   </style>
@@ -21,41 +21,33 @@
 
 <body>
 
-<div id="rightsidenav" class="bg-transparent flex-column" role="navigation">  
-  <ul class="nav nav-pills justify-content-end">
-    <li class="nav-item">
+<nav id="rightsidenav" class="navbar bg-transparent flex-column" role="navigation">  
+  <nav class="nav nav-pills">
       <a class="nav-link" href="#section1">Section 1</a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link" href="#section2">Section 2</a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link" href="#section3">Section 3</a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link" href="#section4">Section4</a>
-    </li>
-  </ul>
-</div>
+  </nav>
+</nav>
 
 <div id="mainpage" data-spy="scroll" data-target="#rightsidenav" data-offset="0">
-  <div id="section1" class="container-fluid bg-success">
-    <h1>Section 1</h1>
+  <div class="bg-success">
+    <h1 id="section1">Section 1</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   </div>
-  <div id="section2" class="container-fluid bg-warning">
-    <h1>Section 2</h1>
+  <div class="bg-warning">
+    <h1 id="section2">Section 2</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   </div>
-  <div id="section3" class="container-fluid bg-success">
-    <h1>Section 3</h1>
+  <div class="bg-success">
+    <h1 id="section3">Section 3</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   </div>
-  <div id="section4" class="container-fluid bg-secondary">
-    <h1>My little experiments</h1>
+  <div class="bg-secondary">
+    <h1 id="section4">My little experiments</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
   </div>
