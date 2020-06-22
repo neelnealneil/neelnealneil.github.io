@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <style type="text/css">
-    body {
+    #mainpage {
       position: relative;
     }
     #rightsidenav {
@@ -38,7 +38,7 @@
   </ul>
 </div>
 
-<div data-spy="scroll" data-target="#rightsidenav" data-offset="0">
+<div id="mainpage" data-spy="scroll" data-target="#rightsidenav" data-offset="0">
   <div id="section1" class="container-fluid bg-success">
     <h1>Section 1</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
