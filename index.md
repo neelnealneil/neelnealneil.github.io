@@ -38,7 +38,7 @@
   </ul>
 </nav>
 
-<div data-spy="scroll" data-target="rightsidenav" data-offset="0">
+<div data-spy="scroll" data-target="#rightsidenav" data-offset="0">
   <div id="section1" class="container-fluid bg-success">
     <h1>Section 1</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
