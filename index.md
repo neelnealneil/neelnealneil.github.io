@@ -13,7 +13,7 @@
     body {
       position: relative;
     }
-    nav.navbar {
+    div.nav {
       float: right;
     }
   </style>
@@ -21,8 +21,8 @@
 
 <body>
 
-<nav id="rightsidenav" class="navbar bg-transparent flex-column">  
-  <ul class="nav nav-pills">
+<div id="rightsidenav" class="nav bg-transparent flex-column" role="navigation">  
+  <ul class="nav nav-pills justify-content-end">
     <li class="nav-item">
       <a class="nav-link" href="#section1">Section 1</a>
     </li>
@@ -36,7 +36,7 @@
       <a class="nav-link" href="#section4">Section4</a>
     </li>
   </ul>
-</nav>
+</div>
 
 <div data-spy="scroll" data-target="#rightsidenav" data-offset="0">
   <div id="section1" class="container-fluid bg-success">
