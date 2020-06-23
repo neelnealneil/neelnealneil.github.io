@@ -9,29 +9,18 @@
 	
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-  <style type="text/css">
-    body {
-      position: relative;
-    }
-    nav.navbar {
-      float: right;
-    }
-  </style>
+  <link rel="stylesheet" href="custom.css">
 </head>
 
 <body data-spy="scroll" data-target="#rightsidenav" data-offset="0">
 
-<nav id="rightsidenav" class="navbar bg-transparent flex-column" role="navigation">  
-  <nav class="nav nav-pills flex-column">
+<nav id="rightsidenav" class="navbar fixed-right bg-transparent flex-column">  
+  <div class="nav nav-pills flex-column">
       <a class="nav-link" href="#section1">Section 1</a>
       <a class="nav-link" href="#section2">Section 2</a>
       <a class="nav-link" href="#section3">Section 3</a>
       <a class="nav-link" href="#section4">Section4</a>
-  </nav>
+  </div>
 </nav>
 
 
