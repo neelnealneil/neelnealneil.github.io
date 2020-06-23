@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="custom.css">
 </head>
 
-<body data-spy="scroll" data-target="#rightsidenav" data-offset="0">
+<body data-spy="scroll" data-target="nav.navbar" data-offset="0">
 
-<nav id="rightsidenav" class="navbar fixed-right bg-transparent flex-column">  
+<nav class="navbar fixed-right bg-transparent flex-column">  
   <div class="nav nav-pills flex-column">
       <a class="nav-link" href="#section1">Section 1</a>
       <a class="nav-link" href="#section2">Section 2</a>
